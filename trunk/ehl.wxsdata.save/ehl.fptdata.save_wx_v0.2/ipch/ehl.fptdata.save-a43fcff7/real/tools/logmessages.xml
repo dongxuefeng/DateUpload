@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by Chris Whytock (RealNetworks, Inc.) -->
+<translationmap namespace="RealNetworks" language="english" encoding="ascii">
+	<FunctionalArea id="1" text="ActiveX"/>
+	<FunctionalArea id="2" text="Audio Codec"/>
+	<FunctionalArea id="3" text="Audio Pre-filters"/>
+	<FunctionalArea id="4" text="Broadcast"/>
+	<FunctionalArea id="5" text="Capture"/>
+	<FunctionalArea id="6" text="Command Line"/>
+	<FunctionalArea id="7" text="File Output"/>
+	<FunctionalArea id="8" text="File Reader"/>
+	<FunctionalArea id="9" text="GUI"/>
+	<FunctionalArea id="10" text="Job File"/>
+	<FunctionalArea id="11" text="License"/>
+	<FunctionalArea id="12" text="Post-filters"/>
+	<FunctionalArea id="13" text="Remote Agent"/>
+	<FunctionalArea id="14" text="SDK Configuration"/>
+	<FunctionalArea id="15" text="SDK Encoding"/>
+	<FunctionalArea id="16" text="SDK Core"/>
+	<FunctionalArea id="17" text="SDK Generic Filter"/>
+	<FunctionalArea id="18" text="Statistics"/>
+	<FunctionalArea id="19" text="Video Codec"/>
+	<FunctionalArea id="20" text="Video Pre-filters"/>
+	<FunctionalArea id="21" text="Video Rendering"/>
+	<Message id="1" text="Translation #1"/>
+	<Message id="2" text="Translation #2"/>
+	<Message id="2000" text="Property %s not set for codec %s."/>
+	<Message id="2001" text="Audio codec filter failed to set accurate end-time"/>
+	<Message id="2002" text="Could not encode audio sample."/>
+	<Message id="2003" text="Input audio sample exceeded input buffer size. Dropping extra samples."/>
+	<Message id="2004" text="AudioStream%ld: %s%ld  total bytes recv: %ld  total encoded bytes sent: %ld  endtime: %ld"/>
+	<Message id="2005" text="Unable to set unrecognized property %s of type uint on audio codec."/>
+	<Message id="2006" text="Unable to set unrecognized property %s of type string on audio codec."/>
+	<Message id="2007" text="Load library call failed for dll %s."/>
+	<Message id="2008" text="Codec %s does not export CreateEncoderInstance function."/>
+	<Message id="2009" text="Failed to create audio codec %s instance."/>
+	<Message id="2010" text="Failed to set flavor %ld for codec %s"/>
+	<Message id="2011" text="Failed to get bitrate for codec %s flavor %ld."/>
+	<Message id="2012" text="Audio codec %s does not support bits per frame property."/>
+	<Message id="2013" text="Audio codec %s does not support granularity property."/>
+	<Message id="2014" text="Audio codec %s does not support interleaving unit property"/>
+	<Message id="2015" text="Failed to allocate memory."/>
+	<Message id="2016" text="Audio codec %s does not support opaque data property."/>
+	<Message id="2017" text="Failed to allocate memory."/>
+	<Message id="2018" text="Failed to load dll %s in codecs directory."/>
+	<Message id="2020" text="CreateEncoderInstance call failed for codec %s."/>
+	<Message id="2021" text="Failed to allocate memory."/>
+	<Message id="2022" text="Property %s not set."/>
+	<Message id="3000" text="Failed to get property %s"/>
+	<Message id="3001" text="Sampling rate %ld is not supported"/>
+	<Message id="3002" text="Failed to get property %s"/>
+	<Message id="3003" text="Bits per sample %ld is not supported"/>
+	<Message id="3004" text="Failed to get property %s"/>
+	<Message id="3005" text="Number of channels %ld is not supported"/>
+	<Message id="3006" text="Failed to get property %s in output filter's property bag"/>
+	<Message id="3007" text="Sampling rate %ld is not supported in output filter's property bag"/>
+	<Message id="3008" text="Failed to get property %s in output filter's property bag"/>
+	<Message id="3009" text="Sampling rate %ld is not supported in output filter's property bag"/>
+	<Message id="3010" text="Failed to get property %s in output filter's property bag"/>
+	<Message id="3011" text="Number of channels %ld is not supported in output filter's property bag"/>
+	<Message id="3012" text="Failed to initialize resampler"/>
+	<Message id="3050" text="Unknown property %s with value %s in resampler."/>
+	<Message id="3051" text="Invalid value %s for property %s in resampler."/>
+	<Message id="3052" text="Failed to get sample rate in resampler.  Unable to proceed."/>
+	<Message id="3053" text="Unsupported sampling rate %ld.  Unable to proceed."/>
+	<Message id="3054" text="Failed to get audio sample size in resampler.  Unable to proceed."/>
+	<Message id="3055" text="Invalid number of bits per sample (%ld) in resampler.  Unable to proceed."/>
+	<Message id="3056" text="Failed to get number of channels in resampler.  Unable to proceed."/>
+	<Message id="3057" text="Invalid number of channels (%ld) in resampler.  Unable to proceed."/>
+	<Message id="3058" text="Failed to get sample rate in resampler.  Unable to proceed."/>
+	<Message id="3059" text="Unsupported sampling rate %ld.  Unable to proceed."/>
+	<Message id="3060" text="Failed to get audio sample size in resampler.  Unable to proceed."/>
+	<Message id="3061" text="Invalid number of bits per sample (%ld) in resampler.  Unable to proceed."/>
+	<Message id="3062" text="Failed to get number of channels in resampler.  Unable to proceed."/>
+	<Message id="3063" text="Invalid number of channels (%ld) in resampler.  Unable to proceed."/>
+	<Message id="3064" text="Using resampler filter."/>
+	<Message id="3065" text="Failed to initialize resampler.  Unable to proceed."/>
+	<Message id="3066" text="Failed to get media sample in resampler.  Unable to proceed."/>
+	<Message id="3067" text="Failed to get media sample in resampler.  Unable to proceed."/>
+	<Message id="3068" text="Failed to get media sample in resampler.  Unable to proceed."/>
+	<Message id="3069" text="Failed to set time stamps in resampler.  Unable to proceed."/>
+	<Message id="3100" text="sizeof(int)!=sizeof(INT32). Unabled to proceed."/>
+	<Message id="3101" text="set input and output format first. Unable to proceed."/>
+	<Message id="3102" text="TrackingBuffer did not init in limiter. Unable to proceed."/>
+	<Message id="3150" text="Audio bits per sample %d not supported in audio meter. Unable to proceed."/>
+	<Message id="3151" text="Unsupported sampling rate. Unable to proceed."/>
+	<Message id="3152" text="Unsupported number of channels %d (must be between 1 and %d). Unable to proceed."/>
+	<Message id="3153" text="Failed to get sample rate in audio level meter. Unable to proceed."/>
+	<Message id="3154" text="Failed to get sample size in audio level meter. Unable to proceed."/>
+	<Message id="3155" text="Failed to get number of channels in audio level meter. Unable to proceed."/>
+	<Message id="3156" text="levelmeter: input and output formats do not match."/>
+	<Message id="3157" text="Using level meter/audio watchdog."/>
+	<Message id="3158" text="Failed to create the audio level meter. Unable to proceed."/>
+	<Message id="3159" text="Audio meter needs IEEE arithmetic which does not appear to be supported on your hardware.  Unable to proceed."/>
+	<Message id="3160" text="Number of channels (%d) not supported in audio meter.  Unable to proceed."/>
+	<Message id="3161" text="Subnormalized numbers occuring."/>
+	<Message id="3162" text="Channel %i below %1.0f dB since %d seconds."/>
+	<Message id="3163" text="Channel %i clips slightly."/>
+	<Message id="3164" text="Channel %i clips moderately."/>
+	<Message id="3165" text="Channel %i clips heavily."/>
+	<Message id="3166" text="Channel energy imbalance since %d seconds."/>
+	<Message id="3167" text="Stereo signal out-of-phase since %d seconds."/>
+	<Message id="3168" text="Suppressing message %d for %d hours."/>
+	<Message id="3169" text="Incomplete audio sample frame passed to RSAudioMeters plugin. This is likely a bug in the active InputFilter."/>
+	<Message id="4000" text="Error in getting input stream properties in RBS filter"/>
+	<Message id="4003" text="Invalid parameter %s of type %s passed to RBS Filter"/>
+	<Message id="4004" text="Unrecognized value %s set for property %s of type string"/>
+	<Message id="4007" text="Required property %s not set"/>
+	<Message id="4008" text="Required property %s not set"/>
+	<Message id="4009" text="Required property %s not set"/>
+	<Message id="4010" text="%s property not set"/>
+	<Message id="4011" text="%s property not set"/>
+	<Message id="4011" text="Prime call Failed in RBS Filter due to failure to initialize"/>
+	<Message id="4012" text="Prime call Failed in RBS Filter due failure to allocate memory"/>
+	<Message id="4013" text="Prime call Failed in RBS Filter due to failure add push destination"/>
+	<Message id="4014" text="Prime call Failed in RBS Filter due to failure add pull destination"/>
+	<Message id="4015" text="Error in Prime call in RBS Filter"/>
+	<Message id="4016" text="   %s: %s"/>
+	<Message id="4017" text="   %s: %lu"/>
+	<Message id="4018" text="   %s: %s"/>
+	<Message id="4019" text="Invalid port range in %s %s"/>
+	<Message id="4020" text="Failed to allocate memory for property %s"/>
+	<Message id="4021" text="Setting server %s Properties:"/>
+	<Message id="4022" text="Setting server %s Properties:"/>
+	<Message id="4023" text="Failed to load DLL %s"/>
+	<Message id="4024" text="Error in CreateInstance call in DLL %s "/>
+	<Message id="4025" text="%s"/>
+	<Message id="4026" text="%s"/>
+	<Message id="4027" text="Number of Packets sent to server =%ld"/>
+	<Message id="4028" text="Number of re-send requests made =%ld"/>
+	<Message id="4029" text="Number of resend requests honored =%ld"/>
+	<Message id="4030" text="Required property %s not set."/>
+	<Message id="4031" text="Required property %s not set."/>
+	<Message id="4033" text="Required property %s not set."/>
+	<Message id="4034" text="Required property %s not set."/>
+	<Message id="4035" text="Connected to server %s."/>
+	<Message id="4036" text="Failed to connect to sever %s."/>
+	<Message id="4037" text="Server %s disconnected.  Reconnecting."/>
+	<Message id="4038" text="Server %s disconnected. Connection closed."/>
+	<Message id="4039" text="Specified host name could not be found for server %s."/>
+	<Message id="4040" text="Failed to create network TCP socket for server %s."/>
+	<Message id="4041" text="Failed to establish a TCP connection with server %s for authentication."/>
+	<Message id="4042" text="Timeout for server %s waiting for authentication."/>
+	<Message id="4043" text="Authentication failed for server %s.  Please check username, password, and port number."/>
+	<Message id="4044" text="Did not receive port range from server %s."/>
+	<Message id="4045" text="Failed to lookup address for server %s."/>
+	<Message id="4046" text="Authentication for server %s succeeded."/>
+	<Message id="4047" text="%s"/>
+	<Message id="4048" text="%s"/>
+	<Message id="4049" text="Number of packets received by receiver =%ld."/>
+	<Message id="4050" text="Number of packets lost %ld."/>
+	<Message id="4051" text="Number of late packets %ld."/>
+	<Message id="4052" text="Invalid value %s for property %s."/>
+	<Message id="4053" text="%s."/>
+	<Message id="4054" text="Password sent by server is incorrect."/>
+	<Message id="4055" text="Failed to bind to listen pull port for %s."/>
+	<Message id="4056" text="Timeout for pull broadcast reached stoping pull broadcast."/>
+	<Message id="4057" text="Broadcasting stream %s to server."/>
+	<Message id="4058" text="Listening for connection from server,for stream %s."/>
+	<Message id="4059" text="Monitoring connection to server %s failed,stopping broadcast."/>
+	<Message id="5001" text="%sUsing port name &apos;%s&apos; matching port name &apos;%s&apos;"/>
+	<Message id="5002" text="%sUsing port name &apos;%s&apos; matching port number %d"/>
+	<Message id="5003" text="%sUsing port number %d (unenumerated)"/>
+	<Message id="5004" text="%sCould not find port name matching &apos;%s&apos;"/>
+	<Message id="5005" text="%sUsing device name &apos;%s&apos; matching device name &apos;%s&apos;"/>
+	<Message id="5006" text="%sUsing device name &apos;%s&apos; matching device number %d"/>
+	<Message id="5007" text="%sCould not find device name matching &apos;%s&apos;"/>
+	<Message id="5008" text="%sSynchronizing live video source with live audio source"/>
+	<Message id="5009" text="%sOut of memory (Could not create LinuxAudioCaptureClock)"/>
+	<Message id="5010" text="%s%s port number %d (%s) did not stick (Error %d) (set ioctl %d, got ioctl %d). Using default"/>
+	<Message id="5011" text="%sCould not set %s port number %d (%s) (Error %d). Using default"/>
+	<Message id="5012" text="%sInvalid %s port number %d. Using default"/>
+	<Message id="5013" text="%sSet %s port number to %d (%s)"/>
+	<Message id="5014" text="%sCould not open audio device &apos;%s&apos;"/>
+	<Message id="5015" text="%sAudio device &apos;%s&apos; opened"/>
+	<Message id="5016" text="%sCould not open mixer device &apos;%s&apos;"/>
+	<Message id="5017" text="%sSNDCTL_DSP_SETFRAGMENT (%d) failed"/>
+	<Message id="5018" text="%sCould not set number of channels to %d on audio device"/>
+	<Message id="5019" text="%sCould not set bits per sample to %d on audio device"/>
+	<Message id="5020" text="%sCould not set samples per second to %d on audio device"/>
+	<Message id="5021" text="%sLinuxAudioCaptureController not started"/>
+	<Message id="5022" text="%sBuffer NULL"/>
+	<Message id="5024" text="%sAudio capture %s"/>
+	<Message id="5025" text="%sFailed to open %s (%s). Video device may be in use or unavailable"/>
+	<Message id="5026" text="%sVideo device &apos;%s&apos; (%s) opened"/>
+	<Message id="5027" text="%sCould not get capability information from video capture device (VIDIOCGCAP)"/>
+	<Message id="5028" text="%sCould not get image properties from video capture device (VIDIOCGPICT)"/>
+	<Message id="5029" text="%sCould not set color format (%s) for video capture device (VIDIOCSPICT: depth=%d, palette=%d)"/>
+	<Message id="5030" text="%sColor format %s for video capture device set (VIDIOCSPICT: depth=%d, palette=%d, rscolor==%d)"/>
+	<Message id="5031" text="%sCould not get port information for video capture device (VIDIOCGCHAN)"/>
+	<Message id="5032" text="%sCould not set port information for video capture device (VIDIOCSCHAN: port=%d, norm=%d)"/>
+	<Message id="5033" text="%sPort %d (%s) set (VIDIOCSCHAN)"/>
+	<Message id="5034" text="%sCould not initialize video capture device (VIDIOCGMBUF)"/>
+	<Message id="5035" text="%sCould not initialize video capture device (mmap failed)"/>
+	<Message id="5036" text="%sOut of memory (LinuxVideoCaptureClock)"/>
+	<Message id="5037" text="%sCould not set image size to %dx%d for color format %s (%d) (VIDIOCMCAPTURE: buffer 0)"/>
+	<Message id="5038" text="%sCould not set image size to %dx%d for color format %s (%d) (VIDIOCMCAPTURE: buffer 1)"/>
+	<Message id="5039" text="%sLinuxVideoCaptureController not started"/>
+	<Message id="5040" text="%s%u: video @ %6dms, %d bytes, chksum=%.0lf"/>
+	<Message id="5041" text="%sCould not get video sample of size %d"/>
+	<Message id="5042" text="%s%u: audio @ %6dms, %d bytes, chksum=%.0lf"/>
+	<Message id="5043" text="%sCould not get audio sample of size %d"/>
+	<Message id="5044" text="%sCould not instantiate DirectShow capture (ICaptureGraphBuilder)"/>
+	<Message id="5045" text="%sAudio capture device %s (%d) created"/>
+	<Message id="5046" text="%s%ld of %ld video frames dropped in capture"/>
+	<Message id="5047" text="%sCould not set up DirectShow audio capture filter graph (RenderStream)."/>
+	<Message id="5048" text="%sCould not connect DirectShow capture filter graph. Audio format was not set."/>
+	<Message id="5049" text="%sCould not set up DirectShow video capture filter graph (RenderStream)."/>
+	<Message id="5050" text="%sCould not connect DirectShow capture filter graph. Video format was not set."/>
+	<Message id="5051" text="%sCould not instantiate DirectShow video renderer (Error 0x%lx)"/>
+	<Message id="5052" text="%sCould not add DirectShow video renderer to the graph (Error 0x%lx)"/>
+	<Message id="5053" text="%sCould not run DirectShow filter graph 0x%08x"/>
+	<Message id="5054" text="%sCould not run DirectShow filter graph 0x%08x"/>
+	<Message id="5055" text="%sCould not connect DirectShow capture filter graph. Audio format was not set."/>
+	<Message id="5056" text="%sRequested properties from DirectShow format dialog invalid. "/>
+	<Message id="5057" text="%s%u: %s @ %6dms, %d bytes, chksum=%.0lf"/>
+	<Message id="5058" text="%sThe requested video capture size %dx%d is not supported by your capture hardware. Please refer to your capture driver documentation for supported frame sizes."/>
+	<Message id="5070" text="--------- Input Capture Properties from %s"/>
+	<Message id="5071" text="Total Duration: %s"/>
+	<Message id="5072" text="--------- End Input Capture Properties"/>
+	<Message id="5073" text="Audio Track"/>
+	<Message id="5074" text="   Device Name: %s"/>
+	<Message id="5075" text="   Port:		 %s"/>
+	<Message id="5076" text="   Channels:    %s"/>
+	<Message id="5077" text="   Bit Depth:   %d"/>
+	<Message id="5078" text="   SampleRate:  %d Hz"/>
+	<Message id="5079" text="   Format:      Uncompressed Audio"/>
+	<Message id="5080" text="   Duration:    %s"/>
+	<Message id="5081" text="   Format:      Unsupported"/>
+	<Message id="5082" text="Video Track"/>
+	<Message id="5083" text="   Device Name: %s"/>
+	<Message id="5084" text="   Port Name:   %s"/>
+	<Message id="5085" text="   Dimensions:  %d x %d"/>
+	<Message id="5086" text="   Frame Rate:  %.3f FPS"/>
+	<Message id="5087" text="   Format:		 %s"/>
+	<Message id="5088" text="   Duration:    %s"/>
+	<Message id="5089" text="   Format:      Unsupported"/>
+	<Message id="5090" text="Could not start capture."/>
+	<Message id="5091" text="Could not start capture preview."/>
+	<Message id="5092" text="Could not run DirectShow filter graph 0x%08x"/>
+	<Message id="7001" text="kPropOutputPathname value has not been set. Prime call failed."/>
+	<Message id="7002" text="Unrecognized parameter, %s."/>
+	<Message id="7003" text="GetSupportedInputFormat method failed."/>
+	<Message id="7004" text="SetNegotiatedInputFormat method failed."/>
+	<Message id="7005" text="Empty filename in destination."/>
+	<Message id="7006" text="Filename exceeds allowed length of %d characters."/>
+	<Message id="7007" text="Filename contains an invalid character. Invalid characters include: *?@&quot;&lt;&gt;|"/>
+	<Message id="7008" text="File path separators switched to platform appropriate separator."/>
+	<Message id="7009" text="Temporary directory set to empty string."/>
+	<Message id="7010" text="Disk drive for %s directory is either unavailable or an unwritable type. Unable to proceed."/>
+	<Message id="7011" text="Drive full or unavailable when writing to %s directory %s. Unable to proceed."/>
+	<Message id="7013" text="Drive has less than 10MB free space when writing to %s directory %s."/>
+	<Message id="7014" text="Colon (:) specified in invalid position in output filename %s."/>
+	<Message id="7015" text="Invalid permissions to write to %s directory %s. Unable to proceed."/>
+	<Message id="7016" text="%s directory %s created."/>
+	<Message id="7017" text="Could not create %s directory %s. Unable to proceed."/>
+	<Message id="7020" text="Failed Prime method."/>
+	<Message id="7021" text="Received a RS_SAMPLE_ENDOFSTREAM."/>
+	<Message id="7023" text="Reduced file roll size from %d to %d MB."/>
+	<Message id="7024" text="Number of properties in file header must be same between connection and encoding completion."/>
+	<Message id="7025" text="Number of properties in stream header must be same between connection and encoding completion."/>
+	<Message id="7031" text="RealMedia File Writer Plug-in Abort called in Teardown."/>
+	<Message id="7032" text="Failed to load RealMedia File Writer Plug-in. Check installation."/>
+	<Message id="7033" text="SetFileHeader Failed in RealMedia File Writer Plug-in. Unable to proceed."/>
+	<Message id="7034" text="SetStreamHeader failed in RealMedia File Writer Plug-in. Unable to proceed."/>
+	<Message id="7035" text="RealMedia File Writer Plug-in failed on finish with error # %d."/>
+	<Message id="7036" text="Merge started for Volume ID %d."/>
+	<Message id="7038" text="Failed to start merge for volume ID %d, with error # %d"/>
+	<Message id="7039" text="OnPacketsReady failed with error # %d."/>
+	<Message id="7040" text="Finished Writing Volume ID %d."/>
+	<Message id="7042" text="Finished writing RealMedia File."/>
+	<Message id="7043" text="File %s already exists. Archiving existing file to %s. Writing new file to %s."/>
+	<Message id="7044" text="RealMedia file reached file size limit of %d MB. Starting new volume %s."/>
+	<Message id="7045" text="Variable bit rate files require .rmvb file extension. Switching extension to .rmvb."/>
+	<Message id="7046" text="Constant bit rate files require .rm file extension. Switching extension to .rm."/>
+	<Message id="7047" text="File extension required to identify file type. Appending filename %s with file extension %s."/>
+	<Message id="7050" text="RealMedia File Writer Plug-in %s error with UserCode %d: %s"/>
+	<Message id="7051" text="Could not write to output file %s. File saved to %s."/>
+	<Message id="7052" text="A serious problem occurred when accessing output directory."/>
+	<Message id="7053" text="Unable to merge individual streams to final surestream file."/>
+	<Message id="7054" text="A serious problem occurred when accessing temp file in %s."/>
+	<Message id="8050" text="--------- Input File Properties from %s"/>
+	<Message id="8051" text="Input Filename: %s"/>
+	<Message id="8052" text="File Size:      %s"/>
+	<Message id="8053" text="Total Duration: %s"/>
+	<Message id="8054" text="--------- End Input File Properties"/>
+	<Message id="8060" text="Audio Track"/>
+	<Message id="8061" text="   Channels:    %s"/>
+	<Message id="8062" text="   Bit Depth:   %d"/>
+	<Message id="8063" text="   SampleRate:  %d Hz"/>
+	<Message id="8064" text="   Format:      Uncompressed Audio"/>
+	<Message id="8065" text="   Duration:    %s"/>
+	<Message id="8066" text="   Format:      Unsupported"/>
+	<Message id="8080" text="Video Track"/>
+	<Message id="8081" text="   Dimensions:  %d x %d"/>
+	<Message id="8082" text="   Frame Rate:  %.3f FPS"/>
+	<Message id="8083" text="   Format:		 %s"/>
+	<Message id="8084" text="   Duration:    %s"/>
+	<Message id="8085" text="   Format:      Unsupported"/>
+	<Message id="8101" text="Divx (4cc:%s) detected in DirectShow Reader! Forced to 24Bit Color Format."/>
+	<Message id="8102" text="DirectShow Reader Filter Stopped"/>
+	<Message id="8103" text="DirectShow Reader: Filter Paused"/>
+	<Message id="8104" text="Failed to Render File, %s, with DirectShow Reader. Check for available codec."/>
+	<Message id="8105" text="Stopping DirectShow Filtergraph in DirectShow Reader"/>
+	<Message id="8106" text="Unrecognized Parameter, %s in DirectShow Reader"/>
+	<Message id="8107" text="Neither uncompressed audio or video was available in DirectShow Reader"/>
+	<Message id="8108" text="DirectShow Reader Shutting Down."/>
+	<Message id="8109" text="DirectShow Reader Teardown."/>
+	<Message id="8110" text="Cinepak (4cc:%s) detected in DirectShow Reader! Forced to 24Bit Color Format."/>
+	<Message id="8210" text="Attempt to open file %s failed."/>
+	<Message id="8212" text="Missing RIFF header. %s is not a valid AVI file."/>
+	<Message id="8213" text="Missing AVI 4cc header code. %s is not a valid AVI file."/>
+	<Message id="8214" text="%s has no audio or video streams."/>
+	<Message id="8215" text="%s contains an unknown stream type. Ignoring stream %d."/>
+	<Message id="8216" text="%s contains Digital Video(DV) data. Ignoring stream %d."/>
+	<Message id="8217" text="%s contains a zero-length stream. Ignoring stream %d."/>
+	<Message id="8218" text="%s contains compressed video. Ignoring stream %d."/>
+	<Message id="8219" text="%s contains an invalid audio format."/>
+	<Message id="8220" text="%s contains an invalid stream type %i."/>
+	<Message id="8221" text="Unknown stream type in %s."/>
+	<Message id="8222" text="Tried to access an index/super index block which does not exist in %s."/>
+	<Message id="8223" text="Set file position (fseek) call failed for position %lu in %s."/>
+	<Message id="8224" text="%s has improperly structed extended segment."/>
+
+	<Message id="8300" text="Unexpected end of audio track.  %s may not be valid or flat."/>
+	<Message id="8302" text="File reported more video frames then could be read.  %s may contain invalid frames."/>
+	<Message id="8304" text="Unexpected end of video track.  %s may not be valid or flat."/>
+	<Message id="8306" text="Unexpected file format, %s may be a flat file."/>
+	<Message id="8308" text="%s contains multiple audio streams, may not encode as expected"/>
+	<Message id="8310" text="%s contains multiple video streams, may not encode as expected"/>
+	<Message id="8312" text="%s contains an unknown audio format: %4s"/>
+	<Message id="8314" text="%s contains an unknown video format %4s, depth %lu"/>
+	<Message id="8316" text="%s contains unknown track."/>
+	<Message id="8318" text="%s contains no recognized audio or video streams"/>
+	<Message id="8320" text="Failed to read track in %s."/>
+	<Message id="8322" text="Unexpected file format, %s may be a flat file."/>
+
+	<Message id="8400" text="%s contains gray scale images currently not supported."/>
+	<Message id="8402" text="%s contains unknown color format."/>
+	<Message id="8404" text="Failed to open file %s"/>
+	<Message id="8406" text="Failed to load QuickTime libraries.  QuickTime 5 or later is required."/>
+	<Message id="8408" text="%s not found.  Unable to proceed"/>
+	<Message id="8410" text="Failed to resolve path for %s"/>
+	<Message id="8412" text="%s does not contain any known tracks."/>
+	<Message id="8414" text="%s contains unknown track(s)."/>
+
+	<Message id="9000" text="Unsupported color format for video preview.  Video preview disabled."/>
+	<Message id="9001" text="Unsupported color format for cropping preview.  Cropping preview disabled."/>
+	<Message id="9002" text="Cropping video closed."/>
+	<Message id="9003" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_BGR24_INVERTED"/>
+	<Message id="9004" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_BGR24_NONINVERTED"/>
+	<Message id="9005" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_BGRA32_INVERTED"/>
+	<Message id="9006" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_BGRA32_NONINVERTED"/>
+	<Message id="9007" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_ABGR32_INVERTED"/>
+	<Message id="9008" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_ABGR32_NONINVERTED"/>
+	<Message id="9009" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_ARGB32_INVERTED"/>
+	<Message id="9010" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_BGR32_NONINVERTED"/>
+	<Message id="9011" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_LE_ARGB555_INVERTED"/>
+	<Message id="9012" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_LE_ARGB555_NONINVERTED"/>
+	<Message id="9013" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_LE_RGB565_INVERTED"/>
+	<Message id="9014" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_RGB565_NONINVERTED"/>
+	<Message id="9015" text="MapRSColorFormatToCIDColorFormat() - CID_RGB8"/>
+	<Message id="9016" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_BGR8_NONINVERTED"/>
+	<Message id="9017" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_I420, etc."/>
+	<Message id="9018" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_YV12"/>
+	<Message id="9019" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_YVU9"/>
+	<Message id="9020" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_YUY2, etc."/>
+	<Message id="9021" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_UYVY"/>
+	<Message id="9022" text="MapRSColorFormatToCIDColorFormat() - RS_VIDEO_FORMAT_IYU1, etc."/>
+	<Message id="9023" text="Unsupported color format in video preview.  Video preview disabled."/>
+	<Message id="9024" text="Video preview starting."/>
+	<Message id="9025" text="Video preview starting - calling begin optimizedblit."/>
+	<Message id="9026" text="Video preview starting - done calling begin optimizedblit."/>
+	<Message id="9027" text="Video preview has ended."/>
+	<Message id="9028" text="Video preview has closed."/>
+	<Message id="9029" text="Initializing video preview - aborting since pProps == NULL."/>
+	<Message id="9030" text="Video preview - video sample not valid."/>
+
+
+	<Message id="10001" text="Unable to write input(s) to job file %s"/>
+	<Message id="10002" text="Unable to write output(s) to job file %s"/>
+	<Message id="10003" text="Unable to write job properties to job file %s"/>
+	<Message id="10004" text="Unable to write clip info to job file %s"/>
+	<Message id="10005" text="Unable to write job file %s"/>
+	<Message id="10006" text="UnWable to find or open jobfile: %s"/>
+	<Message id="10007" text="XML parsing error in jobfile: %s, line#: %d, error: %s"/>
+	<Message id="10008" text="No &lt;%s&gt; root element found in jobfile %s"/>
+	<Message id="10009" text="Job file has no child elements to &lt;%s&gt; tag"/>
+	<Message id="10010" text="Unable to read job properties from job file %s"/>
+	<Message id="10011" text="Unable to read clipinfo from job file %s"/>
+	<Message id="10012" text="Unable to read input(s) from job file %s"/>
+	<Message id="10013" text="Unable to read audience(s) from job file %s"/>
+	<Message id="10014" text="Unable to read server(s) from job file %s"/>
+	<Message id="10015" text="Unable to read output(s) from job file %s"/>
+	<Message id="10016" text="Job properties failed to load"/>
+	<Message id="10017" text="Encoding job has no clip info to serialize"/>
+	<Message id="10019" text="No job clip info found"/>
+	<Message id="10020" text="Only one &lt;%s&gt; tag is allowed"/>
+	<Message id="10021" text="Unable to find any child elements of &lt;%s&gt; tag"/>
+	<Message id="10022" text="Unable to get encoding job metadata"/>
+	<Message id="10023" text="Unable to load clip info properties"/>
+	<Message id="10024" text="Unable to set encoding job metadata"/>
+	<Message id="10025" text="Only one &lt;%s&gt; tag is allowed"/>
+	<Message id="10027" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10028" text="Only one &lt;%s&gt; tag is allowed"/>
+	<Message id="10029" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10030" text="Only one &lt;%s&gt; tag is allowed"/>
+	<Message id="10032" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10033" text="No input(s) were found in job file"/>
+	<Message id="10034" text="Unable to add input source %s to job"/>
+	<Message id="10035" text="Unable to add input source to job"/>
+	<Message id="10036" text="No child elements in &lt;%s&gt; tag"/>
+	<Message id="10037" text="Cannot have a &lt;%s&gt; tag under a &lt;%s&gt; tag"/>
+	<Message id="10038" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10040" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10041" text="Unable to add input source %s to par input"/>
+	<Message id="10042" text="Unable to add input source to par input"/>
+	<Message id="10043" text="No child elements in &lt;%s&gt; tag"/>
+	<Message id="10044" text="Cannot have a &lt;%s&gt; tag under a &lt;%s&gt; tag"/>
+	<Message id="10045" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10047" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10048" text="Unable to add input source to seq input %s"/>
+	<Message id="10049" text="Unable to add input source to seq input"/>
+	<Message id="10050" text="Encoding job has no input(s) to serialize"/>
+	<Message id="10051" text="No &lt;%s&gt; tag not found on encoding job input %s"/>
+	<Message id="10052" text="No &lt;%s&gt; tag not found on encoding job input"/>
+	<Message id="10053" text="Unable to write &lt;%s&gt; tag"/>
+	<Message id="10054" text="Unable to write &lt;%s&gt; tag"/>
+	<Message id="10055" text="Unable to write &lt;%s&gt; tag for input %s"/>
+	<Message id="10056" text="Unable to write &lt;%s&gt; tag"/>
+	<Message id="10057" text="Par input has no input(s) to serialize"/>
+	<Message id="10058" text="No &lt;%s&gt; tag not found on encoding job input %s"/>
+	<Message id="10059" text="No &lt;%s&gt; tag not found on encoding job input"/>
+	<Message id="10060" text="Cannot have a &lt;%s&gt; tag under a &lt;%s&gt; tag"/>
+	<Message id="10061" text="Unable to write &lt;%s&gt; tag"/>
+	<Message id="10062" text="Unable to serialize input %s"/>
+	<Message id="10063" text="Unable to serialize input"/>
+	<Message id="10064" text="Seq input has no input(s) to serialize"/>
+	<Message id="10065" text="No &lt;%s&gt; tag not found on encoding job input %s"/>
+	<Message id="10066" text="No &lt;%s&gt; tag not found on encoding job input"/>
+	<Message id="10067" text="Cannot have a &lt;%s&gt; tag under a &lt;%s&gt; tag"/>
+	<Message id="10068" text="Unable to write &lt;%s&gt; tag"/>
+	<Message id="10069" text="Unable to serialize input %s"/>
+	<Message id="10070" text="Unable to serialize input"/>
+	<Message id="10071" text="Cannot have more than one &lt;%s&gt; tag"/>
+	<Message id="10072" text="Unable to find any child elements of &lt;%s&gt; tag"/>
+	<Message id="10073" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10074" text="Cannot have more than one &lt;%s&gt; tag"/>
+	<Message id="10075" text="Unable to read &lt;%s&gt; tag"/>
+	<Message id="10076" text="No output(s) were found in job file"/>
+	<Message id="10077" text="Unable to find any child elements of &lt;%s&gt; tag"/>
+	<Message id="10078" text="Unable to find any child elements of &lt;%s&gt; tag"/>
+	<Message id="10079" text="Properties failed to load for &lt;%s&gt; tag"/>
+	<Message id="10080" text="Unable to add server definition object %s to destination %s"/>
+	<Message id="10081" text="Unable to add server definition object %s to destination"/>
+	<Message id="10082" text="Unable to find %s &quot;%s&quot; in &lt;%s&gt; tag in jobfile"/>
+	<Message id="10083" text="Unable to add output destination %s"/>
+	<Message id="10084" text="Unable to add output destination"/>
+	<Message id="10085" text="Only one &lt;%s&gt; tag is allowed in &lt;%s&gt; tag"/>
+	<Message id="10086" text="Unable to find any child elements of &lt;%s&gt; tag"/>
+	<Message id="10087" text="Unable to load the properties of a &lt;%s&gt; tag"/>
+	<Message id="10088" text="Unable to create a media profile in output profile"/>
+	<Message id="10089" text="Unable to attach media profile to the output profile"/>
+	<Message id="10090" text="Unable to add audience definition %s to the media profile"/>
+	<Message id="10091" text="Unable to find %s &quot;%s&quot; in the audience definitions"/>
+	<Message id="10092" text="Unable to find a &lt;%s&gt; tag in &lt;%s&gt; tag"/>
+	<Message id="10093" text="Unable to find a &lt;%s&gt; tag in &lt;%s&gt; tag"/>
+	<Message id="10094" text="Unable to add output(s) to encoding job"/>
+	<Message id="10095" text="No outputs found on encoding job"/>
+	<Message id="10096" text="No output found at index %d"/>
+	<Message id="10097" text="Server configuration QI(IRTAPropertyBag) failed"/>
+	<Message id="10098" text="Server name missing"/>
+	<Message id="10099" text="No output destination found in output index %d"/>
+	<Message id="10100" text="Audience name missing from media profile"/>
+	<Message id="10101" text="No audience(s) found in media profile"/>
+	<Message id="10102" text="Unable to find audience(s) in job file"/>
+	<Message id="10103" text="&lt;%s&gt; tag missing from &lt;%s&gt; tag"/>
+	<Message id="10104" text="Unable to create audience &quot;%s&quot;"/>
+	<Message id="10105" text="No audience(s) were found in job file"/>
+	<Message id="10106" text="CRMJobSerializer::refBagToXML invalid params"/>
+	<Message id="10107" text="Unable to find %s property in server"/>
+	<Message id="10108" text="No stream(s) found for audience %s"/>
+	<Message id="10109" text="No stream(s) found in an audience"/>
+	<Message id="10110" text="Unable to get stream at index %d"/>
+	<Message id="10111" text="Unable to find child elements in audience"/>
+	<Message id="10112" text="Unable to load properties for a audience"/>
+	<Message id="10113" text="CRMJobSerializer::audienceDefFromXML unable to create IRTAAudience"/>
+	<Message id="10114" text="Unable to find child elements in stream for audience %s"/>
+	<Message id="10115" text="Unable to find child elements in stream"/>
+	<Message id="10116" text="Unable to load properties for stream for audience %s"/>
+	<Message id="10117" text="Unable to load properties for stream for audience"/>
+	<Message id="10118" text="CRMJobSerializer::audienceDefFromXML BuildInstance on IRTAStreamConfig failed"/>
+	<Message id="10119" text="Job file has no child elements to &lt;%s&gt; tag"/>
+	<Message id="10120" text="&lt;%s&gt; tag missing from &lt;%s&gt; tag"/>
+	<Message id="10121" text="Unable to add server %s"/>
+	<Message id="10122" text="No server(s) were found in job file"/>
+	<Message id="10123" text="Element &quot;%s&quot; of type int has invalid value &quot;%s&quot;"/>
+	<Message id="10124" text="Element &quot;%s&quot; of type uint has invalid value &quot;%s&quot;"/>
+	<Message id="10125" text="Element &quot;%s&quot; of type int64 has invalid value &quot;%s&quot;"/>
+	<Message id="10126" text="Element &quot;%s&quot; of type bool has invalid value &quot;%s&quot;. Should be (t/f,0/1,true/false)"/>
+	<Message id="10127" text="Element &quot;%s&quot; of type double has invalid value &quot;%s&quot;"/>
+	<Message id="10128" text="Element &quot;%s&quot; of type duration has invalid value &quot;%s&quot;. Should be (hh:mm:ss)"/>
+	<Message id="10129" text="Unable to find child elements in element %s"/>
+	<Message id="10130" text="Jobfile property: &quot;%s&quot;, type &quot;%s&quot; not recognized"/>
+	<Message id="10131" text="Job file has no child elements to input(s) tag"/>
+	<Message id="10132" text="Job properties failed to load for input"/>
+	<Message id="10133" text="Unable to find any child elements of &lt;%s&gt; tag"/>
+	<Message id="10134" text="Unable to find any child elements of &lt;%s&gt; tag"/>
+	<Message id="10135" text="Unable to add prefilter type %s to input %s"/>
+	<Message id="10136" text="Unable to add prefilter to input"/>
+	<Message id="10137" text="GetUnknown(kPropUserSpecifiedPropEnum) failed"/>
+	<Message id="10138" text="QI for IRTAPropertyEnumerator failed"/>
+	<Message id="10139" text="GetdurationString returned NULL, setting to infinite"/>
+	<Message id="10140" text="GetPropertyEnumerator failed"/>
+	<Message id="10141" text="Type %s not recognized. Skipped for property %s"/>
+	<Message id="10142" text="&lt;%s&gt; tag has no child elements"/>
+	<Message id="10143" text="There is no &lt;%s&gt; tag in job file"/>
+	<Message id="10144" text="Unable to find &lt;%s&gt; tag in audience"/>
+	<Message id="10145" text="Job version %u.%u not supported.  To read this version, please upgrade from version %u.%u"/>
+	<Message id="10146" text="Version %u.%u not supported for audience %s.  To read this version, please upgrade from version %u.%u"/>
+	<Message id="10147" text="Version %u.%u not supported for server %s.  To read this version, please upgrade from version %u.%u"/>
+	<Message id="10148" text="Unable to add postfilter type %s to destination %s"/>
+	<Message id="10149" text="Unable to add postfilter to destination"/>
+	<Message id="10200" text="CRMAudDefEnum::GetAudienceCount, LoadAudienceDefs failed"/>
+	<Message id="10201" text="CRMAudDefEnum::loadAudienceDefs, SetClassFactory needs to be called first"/>
+	<Message id="10202" text="CRMAudDefEnum::loadAudienceDefs, SetProfileDirectory needs to be called first"/>
+	<Message id="10203" text="CRMAudDefEnum::loadAudienceDefs, unable to create IRTAAudience"/>
+	<Message id="10204" text="CRMAudDefEnum::loadAudienceDefs, QI(ISerialize) failed "/>
+	<Message id="10250" text="Missing file name when writing audience %s to file"/>
+	<Message id="10251" text="Missing file name when writing audience to file"/>
+	<Message id="10252" text="No stream(s) found for audience %s"/>
+	<Message id="10253" text="No stream(s) found for audience"/>
+	<Message id="10254" text="Unable to get stream at index %d"/>
+	<Message id="10255" text="CRMAudienceDef::SerializeToFile , QI(ISerialize) failed "/>
+	<Message id="10256" text="CRMAudienceDef::SerializeToFile  ISerialize::Serialize failed"/>
+	<Message id="10257" text="Unable to write to audience %s to file %s"/>
+	<Message id="10258" text="Unable to write to audience to file %s"/>
+	<Message id="10259" text="Audience %s written to file &quot;%s&quot;"/>
+	<Message id="10260" text="Audience written to file &quot;%s&quot;"/>
+	<Message id="10261" text="Missing file name when reading audience from file"/>
+	<Message id="10262" text="Audience has already been initialized"/>
+	<Message id="10263" text="Unable to find or open audience file: %s"/>
+	<Message id="10264" text="XML parsing error in audience file %s, line# %d, error &quot;%s&quot;"/>
+	<Message id="10265" text="Unable to get root element of audience file %s"/>
+	<Message id="10266" text="Unable to find &lt;%s&gt; tag inside audience file %s"/>
+	<Message id="10267" text="Unable to find child elements to &lt;%s&gt; tag"/>
+	<Message id="10268" text="Unable to load properties for audience file %s"/>
+	<Message id="10269" text="CRMAudienceDef::DeserializeFromFile Initialize(bag) failed"/>
+	<Message id="10270" text="CRMAudienceDef::DeserializeFromFile, QI(ISerialize) failed"/>
+	<Message id="10271" text="ISerialize::Deserialize failed for audience %s"/>
+	<Message id="10272" text="Audience loaded from file &quot;%s&quot;"/>
+	<Message id="10300" text="Missing file name when writing output %s to file"/>
+	<Message id="10301" text="Missing file name when writing output to file"/>
+	<Message id="10302" text="Unable to write to output %s to file %s"/>
+	<Message id="10303" text="Unable to write to output to file %s"/>
+	<Message id="10304" text="Output %s written to file &quot;%s&quot;"/>
+	<Message id="10305" text="Output written to file &quot;%s&quot;"/>
+	<Message id="10306" text="Missing file name when reading output from file"/>
+	<Message id="10307" text="Output has already been initialized"/>
+	<Message id="10308" text="Unable to find or open output file: %s"/>
+	<Message id="10309" text="XML parsing error in output file: %s, line#: %d, error: %s"/>
+	<Message id="10310" text="Unable to get root element of server file %s"/>
+	<Message id="10311" text="Unable to find child elements to &lt;%s&gt; tag"/>
+	<Message id="10312" text="Unable to load properties for output file %s"/>
+	<Message id="10313" text="CRMOutputDest::DeserializeFromFile Initialize(bag) failed"/>
+	<Message id="10314" text="Output loaded from file &quot;%s&quot;"/>
+	<Message id="10350" text="CRMBroadcastDefEnum::GetDestinationServerCount, LoadBroadcastDefs failed"/>
+	<Message id="10351" text="CRMBroadcastDefEnum::loadAudienceDefs, SetClassFactory needs to be called first"/>
+	<Message id="10352" text="CRMBroadcastDefEnum::loadBroadcastDefs, SetProfileDirectory needs to be called first"/>
+	<Message id="10353" text="CRMBroadcastDefEnum::loadBroadcastDefs, unable to create IRMAAudienceDefinition"/>
+	<Message id="10354" text="CRMBroadcastDefEnum::loadBroadcastDefs, QI(ISerialize) failed "/>
+	<Message id="10400" text="Unable to find child elements to &lt;%s&gt; tag"/>
+	<Message id="10401" text="Unable to load properties for stream"/>
+	<Message id="10402" text="CRMStreamDef::Deserialize Initialize(bag) failed"/>
+	<Message id="10403" text="Unable to write audience %s to memory"/>
+	<Message id="10404" text="Unable to write audience to memory"/>
+	<Message id="10405" text="Audience %s written to memory"/>
+	<Message id="10406" text="Audience written to memory"/>
+	<Message id="10407" text="Unable to load audience from file %s"/>
+	<Message id="10408" text="XML parsing error: line# %d, error &quot;%s&quot;"/>
+	<Message id="10409" text="Audience %s loaded from memory"/>
+	<Message id="10410" text="Audience loaded from memory"/>
+	<Message id="10411" text="Unable to read stream for audience &quot;%s&quot;"/>
+	<Message id="10411" text="Unable to read stream for audience &quot;%s&quot;"/>
+	<Message id="10500" text="Command line parsing failed"/>
+	<Message id="10501" text="Cannot have both a live and a static file input"/>
+	<Message id="10502" text="You must specify a input"/>
+	<Message id="10503" text="You must specify one or more audience(s)"/>
+	<Message id="10504" text="Output must be a file name or directory, not a wildcard pattern"/>
+	<Message id="10505" text="Incorrect value for video noise filter setting"/>
+	<Message id="10506" text="Input batch not supported for server output"/>
+	<Message id="10507" text="Incorrect syntax for server output"/>
+	<Message id="10508" text="%s created as a batch output directory"/>
+	<Message id="10509" text="Crop width and height cannot be zero"/>
+	<Message id="10510" text="Inverse telecine/deinterlace must be auto, d, i, or di"/>
+	<Message id="10511" text="Audio mode must be voice or music"/>
+	<Message id="10512" text="Incorrect value for video mode"/>
+	<Message id="10513" text="Video capture width and height cannot be zero"/>
+	<Message id="10514" text="Ignoring two pass encoding option with live capture"/>
+	<Message id="10515" text="Two Pass encoding is only applicable to video data"/>
+	<Message id="10516" text="Failed to encode due to errors parsing the command line"/>
+	<Message id="10517" text="Unrecognized option: &quot;%s&quot;"/>
+	<Message id="10518" text="Unrecognized argument: &quot;%s&quot;"/>
+	<Message id="10519" text="Stop encoder request received"/>
+	<Message id="10520" text="Cancel encoder request received. Deleting temporary files."/>
+	<Message id="10521" text="Registration failed"/>
+	<Message id="10522" text="Problem loading required dlls"/>
+	<Message id="10523" text="Unable to execute input batch request"/>
+	<Message id="10524" text="Failed to initialize encoding job"/>
+	<Message id="10525" text="Failed to initialize inputs"/>
+	<Message id="10526" text="Failed to initialize outputs"/>
+	<Message id="10527" text="Failed to initialize prefilters"/>
+	<Message id="10528" text="Failed to initialize audiences"/>
+	<Message id="10529" text="Preparing to encode file &quot;%s&quot; to file &quot;%s&quot;"/>
+	<Message id="10530" text="Unable to write job file &quot;%s&quot;"/>
+	<Message id="10531" text="Encoding successful!"/>
+	<Message id="10532" text="Encoding failed!"/>
+	<Message id="10533" text="Unable to create an encoding job from file &quot;%s&quot;"/>
+	<Message id="10534" text="Creation of job file &quot;%s&quot; was incomplete"/>
+	<Message id="10535" text="Encoding successful!"/>
+	<Message id="10536" text="Encoding failed!"/>
+	<Message id="10537" text="Encoding failed for %s"/>
+	<Message id="10538" text="No input files matching %s found."/>
+	<Message id="10539" text="*?&lt;&gt;|@&amp; characters in filename are invalid on Windows."/>
+	<Message id="10540" text="Colon (:) specified in invalid position in job filename %s"/>
+	<Message id="10541" text="Using *?&lt;&gt;|@&amp; characters in filename. May result in problems on Windows and with command line options."/>
+	<Message id="10542" text="Unable to set up media profile"/>
+	<Message id="10543" text="No audience(s) given"/>
+	<Message id="10544" text="Unable to add audience &quot;%s&quot;"/>
+	<Message id="10545" text="Audience &quot;%s&quot; not found"/>
+	<Message id="10546" text="Duration option is ignored for static file encoding"/>
+	<Message id="10547" text="Audience &quot;%s&quot; found in directory &quot;%s&quot; as a partial match"/>
+	<Message id="10548" text="Audience &quot;%s&quot; found in directory &quot;%s&quot; as an exact match"/>
+	<Message id="10549" text="Audience &quot;%s&quot; ambiguous. Check directory &quot;%s&quot;"/>
+	<Message id="10550" text="Audience &quot;%s&quot; not found or invalid. Check directory &quot;%s&quot;"/>
+	<Message id="10551" text="No audiences found in directory &quot;%s&quot;"/>
+	<Message id="10552" text="No servers found in directory &quot;%s&quot;"/>
+	<Message id="10553" text="Application executable does not appear to be in your installation directory.  Unable to proceed."/>
+	<Message id="10554" text="Resize width and height must be between 0 and %d"/>
+	<Message id="10555" text="Invalid parameter %s"/>
+	<Message id="10556" text="Only a single server parameter is allowed"/>
+	<Message id="10557" text="Unable to find or open audience file: %s"/>
+	<Message id="10558" text="Server &quot;%s&quot; found in directory &quot;%s&quot; as a partial match"/>
+	<Message id="10559" text="Server &quot;%s&quot; found in directory &quot;%s&quot; as an exact match"/>
+	<Message id="10560" text="Server &quot;%s&quot; ambiguous. Check directory &quot;%s&quot;"/>
+	<Message id="10561" text="Server &quot;%s&quot; not found or invalid. Check directory &quot;%s&quot;"/>
+	<Message id="10562" text="Capture width and height must be between 0 and %d"/>
+	<Message id="10563" text="Unable to get %s property from encoding job"/>
+	<Message id="10564" text="Unable to get %s %s from application preferences"/>
+	<Message id="10565" text="Unable to write to PID file %s"/>
+	<Message id="10566" text="The file &quot;%s&quot; found in the Audience Templates directory, is not a valid audience template"/>
+	<Message id="10567" text="Duplicate element &quot;%s&quot; found"/>
+	<Message id="10568" text="Unable to create server &quot;%s&quot;"/>
+	<Message id="10569" text="The file &quot;%s&quot;, found in the Server Templates directory, is not a valid server template"/>
+	<Message id="10570" text="Incorrect value for audio resampling quality"/>
+	<Message id="10571" text="Video Format (-vf) unsupported on Windows.  Ignoring"/>
+	<Message id="10600" text="Unable to packetize event sample"/>
+	<Message id="10601" text="Unrecognized event type: %d"/>
+	<Message id="10602" text="Unable to set unrecognized property %s of type string"/>
+	<Message id="10603" text="Unable to set unrecognized property %s of type uint"/>
+	<Message id="10604" text="Unable to get unrecognized property %s of type IUnknown"/>
+	<Message id="10700" text="Server Definition (-sd) unavailable in Helix Producer Basic"/>
+	<Message id="10701" text="job files (-j) unavailable in Helix Producer Basic"/>
+	<Message id="10702" text="Creating a Job File (-cj) unavailable in Helix Producer Basic"/>
+	<Message id="10703" text="Video Cropping (-cr) unavailable in Helix Producer Basic"/>
+	<Message id="10704" text="Resize Quality (-rq) unavailable in Helix Producer Basic"/>
+	<Message id="10705" text="Video Resize (-rs) unavailable in Helix Producer Basic"/>
+	<Message id="10706" text="Audio Limiter Gain (-ag) unavailable in Helix Producer Basic"/>
+	<Message id="10707" text="Only RV10 codec supported in Helix Producer Basic"/>
+	<Message id="10708" text="More than 3 audiences not supported in Helix Producer Basic"/>
+	<Message id="10709" text="Input file batching not supported in Helix Producer Basic"/>
+	<Message id="10710" text="Visit www.realnetworks.com/special/producer/upgradeinfo.html for upgrade information"/>
+	<Message id="10711" text="Unable to find property %s in an audience"/>
+	<Message id="10712" text="Unable to get property enumerator from the job metadata"/>
+	<Message id="10713" text="Unable to write clip info because of a property error"/>
+	<Message id="10714" text="Metadata property missing %s tag"/>
+	<Message id="10715" text="Invalid tag %s detected"/>
+	<Message id="10716" text="Invalid root tag %s in output file %s"/>
+	<Message id="10717" text="Invalid tag &lt;%s&gt; detected"/>
+	<Message id="10718" text="Unable to get %s property in the output object"/>
+	<Message id="10719" text="Unable to get %s property in the audience definition object"/>
+	<Message id="10720" text="Unable to get %s property in the input object"/>
+	<Message id="10721" text="Unable to get %s property in the prefilter object"/>
+	<Message id="10722" text="Unable to get %s property in the output destination object"/>
+	<Message id="10723" text="Unable to get %s property in the stream object"/>
+	<Message id="10724" text="Type attribute not found on &lt;%s&gt; tag"/>
+	<Message id="10725" text="&lt;%s&gt; tag missing a &lt;%s&gt; tag"/>
+	<Message id="10726" text="Unable to find child elements in &lt;%s&gt; tag"/>
+	<Message id="10727" text="Audience name &quot;%s&quot; used more than once.  Unable to determine which audience to use"/>
+	<Message id="10728" text="Detailed help (-m) cannot be used with other command line options"/>
+	<Message id="10729" text="Short help (-h) cannot be used with other command line options"/>
+	<Message id="10730" text="Print Version Information (-v) cannot be used with other command line options"/>
+	<Message id="10731" text="Print Device Information (-pd) cannot be used with other command line options"/>
+	<Message id="10732" text="Print Audience Definitions (-pa) cannot be used with other command line options"/>
+	<Message id="10733" text="Print Server Definitions (-ps) cannot be used with other command line options"/>
+	<Message id="10734" text="Unable to get %s property in the postfilter object"/>
+	<Message id="14000" text="Attempted to start encoding with no Input"/>
+	<Message id="14001" text="Attempted to start encoding with no OutputProfile"/>
+	<Message id="14002" text="A maximum of one OutputProfile is allowed"/>
+	<Message id="15000" text="Starting encode"/>
+	<Message id="15001" text="Job failed to start encoding"/>
+	<Message id="15002" text="Canceling encode"/>
+	<Message id="15003" text="Stopping encode"/>
+	<Message id="15004" text="Starting analysis pass"/>
+	<Message id="15005" text="Starting encoding pass"/>
+	<Message id="15006" text="Ignoring %s for live encoding"/>	
+	<Message id="15007" text="Ignoring %s for audio-only encoding"/>	
+	<Message id="19000" text="     %6s | %7s | %6s | %4s | %17s | %3s | %17s | %4s |%s"/>
+	<Message id="19001" text="     %6s | %7s | %6s | %4s | %17s | %3s | %17s | %4s |"/>
+	<Message id="19002" text="Total Bitrate = %ld kbps"/>
+	<Message id="19003" text=" ad: %6ld | %7.1f | %6ld | %4.1lf | %17s | %3ld | %17s | %4ld |%s"/>
+	<Message id="19004" text=" ad: %6ld | %7s | %6ld | %4.1lf | %17s | %3ld | %17s | %4ld |%s"/>
+	<Message id="19005" text=" ad: %6ld | %7.1f | %6s | %4s | %17s | %3s | %17s | %4ld |%s"/>
+
+	<Message id="19010" text="    %-4s %-5s %-6s %-5s %-4s %-3s %-4s %s"/>
+	<Message id="19011" text="    %-4s %-5s %-6s %-5s %-4s %-3s %-4s"/>
+	<Message id="19012" text="%-3s %-4s %-5ld %-6.5g %-5ld %4.1lf %-3ld %-4ld %s"/>
+	<Message id="19013" text="%-3s %-4s %-5ld %-6s %-5ld %4.1lf %-3ld %-4ld %s"/>
+	<Message id="19014" text="%-3s %-4s %-5ld %-6s %-5s %-4s %-3s %-4ld %s"/>
+	<Message id="19017" text="Average System Load: %ld"/>
+	<Message id="19018" text="Maximum System Load: %ld"/>
+	<Message id="19020" text="    %-4s %-4s %-8s %-3s %-8s %s"/>
+	<Message id="19021" text="    %-4s %-4s %-8s %-3s %-8s"/>
+	<Message id="19022" text="%-3s %-4s %-4.1f %-8s %-3d %-8s %s"/>
+	<Message id="19023" text="%-3s %-4s %-4s %-8s %-3s %-8s %s"/>	
+	
+	<Message id="20000" text="Failed to allocate memory"/>
+	<Message id="20001" text="Failed to allocate memory"/>
+	<Message id="20002" text="Failed to allocate memory"/>
+	<Message id="20003" text="Failed to allocate memory"/>
+	<Message id="20004" text="Error in GetInputStreamProperties in video codec filter"/>
+	<Message id="20005" text="Required property %s of type uint not set"/>
+	<Message id="20006" text="Required property %s of type uint not set"/>
+	<Message id="20007" text="Required property %s of type uint not set"/>
+	<Message id="20008" text="Required property %s of type double not set"/>
+	<Message id="20009" text="Error in SetInputFormat in video codec filter"/>
+	<Message id="20010" text="Unrecognized value %ld set for property %s of type uint on video codec"/>
+	<Message id="20012" text="Unable to set unrecognized property %s of type uint on video codec"/>
+	<Message id="20013" text="Frame Rate %lf exceeds maximum allowed value %lf. Using default %lf"/>
+	<Message id="20016" text="%s %lf exceeds maximum allowed value %lf. Using default %lf"/>
+	<Message id="20017" text="Unable to set unrecognized property %s of type double on video codec"/>
+	<Message id="20018" text="Unable to set unrecognized property %s of type string on video codec"/>
+	<Message id="20021" text="Colorformat not supported by video codec"/>
+	<Message id="20022" text="Property %s must be greater than %ld and less than %ld"/>
+	<Message id="20023" text="Property %s must be greater than %ld and less than %ld"/>
+	<Message id="20026" text="Invalid value %s for property %s"/>
+	<Message id="20027" text="Invalid value %s for property %s"/>
+	<Message id="20028" text="Failed to open stream for video codec"/>
+	<Message id="20029" text="Failed to set property %s to %ld"/>
+	<Message id="20031" text="Failed to set property %s to %ld"/>
+	<Message id="20033" text="Failed to set property %s to %ld"/>
+	<Message id="20035" text="Failed to set real-time encoding mode"/>
+	<Message id="20035" text="Failed to set static encoding mode"/>
+	<Message id="20036" text="Setting encoding mode to real-time"/>
+	<Message id="20037" text="Failed to set property %s to %lf"/>
+	<Message id="20039" text="Failed to set property %s to %ld"/>
+	<Message id="20041" text="Failed to set property %s to %ld"/>
+	<Message id="20043" text="Failed to set property %s to %ld"/>
+	<Message id="20045" text="Failed to set property %s to %ld"/>
+	<Message id="20047" text="Failed to allocate memory"/>
+	<Message id="20048" text="Failed to set up video codec"/>
+	<Message id="20049" text="Setting video packet size to %ld"/>
+	<Message id="20050" text="Failed to allocate memory"/>
+	<Message id="20051" text="Failed to allocate memory"/>
+	<Message id="20052" text="Failed to allocate memory"/>
+	<Message id="20053" text="Codec is reporting a second last frame"/>
+	<Message id="20054" text="Error in GetInstanceInfo in video codec filter"/>
+	<Message id="20055" text="Failed to allocate memory"/>
+	<Message id="20056" text="Failed to allocate memory"/>
+	<Message id="20057" text="Failed to open codec dll %s"/>
+	<Message id="20058" text="Failed to get UI name from codec %s"/>
+	<Message id="20059" text="A value of less then 1 specified for property %s.Value is not set."/>
+	<Message id="20060" text="A value of greater then 100 specified for property %s.Value is not set."/>
+	<Message id="20061" text="Invalid value %s specified for property %s."/>
+	<Message id="21000" text="Error in getting property %s."/>
+	<Message id="21001" text="Error in getting property %s."/>
+	<Message id="21002" text="Error in getting property %s."/>
+	<Message id="21003" text="Error in getting property %s."/>
+	<Message id="21004" text="%s %ld greater then %s %ld minus minimumWidth %ld."/>
+	<Message id="21005" text="%s %ld greater then %s %ld minus minimumHeight %ld."/>
+	<Message id="21006" text="%s %ld is less than minimumWidth %ld."/>
+	<Message id="21007" text="%s %ld is less than minimumHeight %ld."/>
+	<Message id="21008" text="Cropping values %s+%s %ld exceeds %s %ld."/>
+	<Message id="21009" text="Cropping values %s+%s %ld exceeds %s %ld."/>
+	<Message id="21010" text="Error in color converter."/>
+	<Message id="21011" text="Load library call failed for dll %s."/>
+	<Message id="21012" text="Failed to find exported function InitColorConverter in dll %s."/>
+	<Message id="21013" text="Failed to allocate memory"/>
+	<Message id="21014" text="Failed to allocate memory"/>
+	<Message id="21015" text="Color conversion is not supported."/>
+	<Message id="21016" text="%s value %ld not a mutiple of 4"/>
+	<Message id="21017" text="%s value %ld not a mutiple of 4"/>
+	<Message id="21018" text="%s value %ld not a mutiple of 4"/>
+	<Message id="21019" text="%s value %ld not a mutiple of 4"/>
+</translationmap>

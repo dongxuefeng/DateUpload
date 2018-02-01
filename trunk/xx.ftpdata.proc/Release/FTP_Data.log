@@ -1,0 +1,51 @@
+﻿生成启动时间为 16/6/3 0:04:35。
+     1>项目“E:\workspace\DateUpload\trunk\xx.ftpdata.proc\FTP_Data.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt check_file_path.cpp FTP_Data.cpp public.cpp send_datafile.cpp xxlib\c_windows_service.cpp xxlib\plugin\user_plug_prcdata.cpp
+         check_file_path.cpp
+     1>check_file_path.cpp(57): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>check_file_path.cpp(74): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+         FTP_Data.cpp
+         public.cpp
+         send_datafile.cpp
+     1>send_datafile.cpp(32): warning C4258: “i”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 send_datafile.cpp(20) : 忽略“i”的定义
+                 send_datafile.cpp(14) : 使用“i”的定义
+     1>send_datafile.cpp(48): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>send_datafile.cpp(133): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         c_windows_service.cpp
+         user_plug_prcdata.cpp
+     1>xxlib\plugin\user_plug_prcdata.cpp(17): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>xxlib\plugin\user_plug_prcdata.cpp(138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>xxlib\plugin\user_plug_prcdata.cpp(147): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>xxlib\plugin\user_plug_prcdata.cpp(148): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>xxlib\plugin\user_plug_prcdata.cpp(154): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>xxlib\plugin\user_plug_prcdata.cpp(157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\workspace\DateUpload\trunk\xx.ftpdata.proc\Release\..\..\relase\ehl.ftpdata.proc.exe" /INCREMENTAL:NO /NOLOGO shlwapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\ehl.ftpdata.proc.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\workspace\DateUpload\trunk\relase\ehl.ftpdata.proc.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\workspace\DateUpload\trunk\xx.ftpdata.proc\Release\..\..\relase\ehl.ftpdata.proc.lib" /MACHINE:X86 Release\check_file_path.obj
+         Release\FTP_Data.obj
+         Release\public.obj
+         Release\send_datafile.obj
+         Release\c_windows_service.obj
+         Release\user_plug_prcdata.obj
+         xxlib\libini\ini_oper.lib
+         正在生成代码
+         已完成代码的生成
+         FTP_Data.vcxproj -> E:\workspace\DateUpload\trunk\xx.ftpdata.proc\Release\..\..\relase\ehl.ftpdata.proc.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\workspace\DateUpload\trunk\xx.ftpdata.proc\Release\..\..\relase\ehl.ftpdata.proc.exe;#1" /manifest Release\ehl.ftpdata.proc.exe.intermediate.manifest
+     1>已完成生成项目“E:\workspace\DateUpload\trunk\xx.ftpdata.proc\FTP_Data.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.51

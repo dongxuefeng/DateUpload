@@ -1,0 +1,1228 @@
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 10:35:53 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 10:35:53 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕G15156</hphm>
+<hpzl xsi:type="xsd:string">01</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-19 18:55:06</gcsj>
+<clsd xsi:type="xsd:long">31</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">1</hpys>
+<cllx xsi:type="xsd:string">01</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160519/18/</tplj>
+<tp1 xsi:type="xsd:string">20160519185506374_0_31_陕G15156_黄_0_2_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-19 19: 4:33</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 11:04:55 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 11:04:55 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕A827RA</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-19 20:49:06</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160519/20/</tplj>
+<tp1 xsi:type="xsd:string">20160519204906844_0_60_陕A827RA_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-19 20:58:35</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 12:58:52 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 12:58:52 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GTE161</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 06:08:57</gcsj>
+<clsd xsi:type="xsd:long">20</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/06/</tplj>
+<tp1 xsi:type="xsd:string">20160520060857731_0_20_陕GTE161_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20  6:18:24</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 22:18:42 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 22:18:42 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GC6999</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 06:43:06</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/06/</tplj>
+<tp1 xsi:type="xsd:string">20160520064306564_0_60_陕GC6999_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20  6:52:34</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 22:52:51 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 22:52:51 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕AL9M99</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 06:50:22</gcsj>
+<clsd xsi:type="xsd:long">30</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/06/</tplj>
+<tp1 xsi:type="xsd:string">20160520065022695_0_30_陕AL9M99_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20  6:59:50</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 23:00:07 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 23:00:07 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GER326</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 07:07:28</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/07/</tplj>
+<tp1 xsi:type="xsd:string">20160520070728817_0_60_陕GER326_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20  7:16:56</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 23:17:12 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Thu, 19 May 2016 23:17:12 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GS5699</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 09:53:05</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/09/</tplj>
+<tp1 xsi:type="xsd:string">20160520095305699_0_60_陕GS5699_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 10: 2:33</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 02:02:49 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 02:02:49 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕A0VW78</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 11:45:37</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/11/</tplj>
+<tp1 xsi:type="xsd:string">20160520114537544_0_60_陕A0VW78_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 11:55: 4</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 03:55:21 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 03:55:21 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕G1G111</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 13:52:26</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/13/</tplj>
+<tp1 xsi:type="xsd:string">20160520135226844_0_60_陕G1G111_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 14: 1:54</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 06:02:11 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 06:02:11 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GBS855</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 14:03:08</gcsj>
+<clsd xsi:type="xsd:long">23</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/14/</tplj>
+<tp1 xsi:type="xsd:string">20160520140308982_0_23_陕GBS855_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 14:12:37</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 06:12:58 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 06:12:58 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕G88065</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 15:04:14</gcsj>
+<clsd xsi:type="xsd:long">20</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/15/</tplj>
+<tp1 xsi:type="xsd:string">20160520150414974_0_20_陕G88065_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 15:13:43</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 07:14:00 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 07:14:00 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕A8LB71</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 15:11:58</gcsj>
+<clsd xsi:type="xsd:long">24</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/15/</tplj>
+<tp1 xsi:type="xsd:string">20160520151158751_0_24_陕A8LB71_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 15:21:25</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 07:21:47 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 07:21:47 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GC1669</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 16:12:39</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/16/</tplj>
+<tp1 xsi:type="xsd:string">20160520161239995_0_60_陕GC1669_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 16:22: 7</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 08:22:24 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 08:22:24 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GLA986</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 18:00:23</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/18/</tplj>
+<tp1 xsi:type="xsd:string">20160520180023799_0_60_陕GLA986_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 18: 9:51</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 10:10:08 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 10:10:08 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GM8006</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 18:53:37</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/18/</tplj>
+<tp1 xsi:type="xsd:string">20160520185337836_0_60_陕GM8006_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 19: 3: 5</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 11:03:23 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 11:03:23 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GMA236</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 19:55:49</gcsj>
+<clsd xsi:type="xsd:long">25</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/19/</tplj>
+<tp1 xsi:type="xsd:string">20160520195549917_0_25_陕GMA236_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 20: 5:19</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 12:05:36 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 12:05:36 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕GL0307</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 20:36:35</gcsj>
+<clsd xsi:type="xsd:long">22</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/20/</tplj>
+<tp1 xsi:type="xsd:string">20160520203635224_0_22_陕GL0307_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 20:46: 2</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 12:46:23 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 12:46:23 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕G6A066</hphm>
+<hpzl xsi:type="xsd:string">02</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 21:17:45</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">2</hpys>
+<cllx xsi:type="xsd:string">02</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/21/</tplj>
+<tp1 xsi:type="xsd:string">20160520211745916_0_60_陕G6A066_蓝_0_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 21:27:14</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 13:27:31 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 13:27:31 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1389
+SOAPAction: "http://webservice.tfc.tmri.com/WriteVehicleInfo"
+Connection: Keep-Alive
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<WriteVehicleInfo xmlns="http://webservice.tfc.tmri.com">
+<kkbh xsi:type="xsd:string">610900100144</kkbh>
+<fxlx xsi:type="xsd:string">1</fxlx>
+<cdh xsi:type="xsd:long">1</cdh>
+<hphm xsi:type="xsd:string">陕G1070警</hphm>
+<hpzl xsi:type="xsd:string">03</hpzl>
+<gcsj xsi:type="xsd:string">2016-05-20 22:01:46</gcsj>
+<clsd xsi:type="xsd:long">60</clsd>
+<clxs xsi:type="xsd:long">50</clxs>
+<wfdm xsi:type="xsd:string">0</wfdm>
+<cwkc xsi:type="xsd:long">0</cwkc>
+<hpys xsi:type="xsd:string">9</hpys>
+<cllx xsi:type="xsd:string">03</cllx>
+<fzhpzl xsi:type="xsd:string"></fzhpzl>
+<fzhphm xsi:type="xsd:string"></fzhphm>
+<fzhpys xsi:type="xsd:string"></fzhpys>
+<clpp xsi:type="xsd:string"></clpp>
+<clwx xsi:type="xsd:string"></clwx>
+<csys xsi:type="xsd:string"></csys>
+<tplj xsi:type="xsd:string">ftp://ftpdata:pass1234@10.176.81.81//kakou/144/20160520/22/</tplj>
+<tp1 xsi:type="xsd:string">20160520220146661_0_60_陕G1070警_白_3_1_上行_01_610900100144_0_hik.jpg</tp1>
+<tp2 xsi:type="xsd:string"></tp2>
+<tp3 xsi:type="xsd:string"></tp3>
+<tztp xsi:type="xsd:string">2016- 5-20 22:11:14</tztp>
+</WriteVehicleInfo>
+</soap:Body>
+</soap:Envelope>
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 14:11:32 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+HTTP/1.1 500 Internal Server Error
+Content-Type: text/xml; charset=utf-8
+Content-Language: zh-CN
+Transfer-Encoding: chunked
+Connection: Close
+Date: Fri, 20 May 2016 14:11:32 GMT
+Server: WebSphere Application Server/7.0
+
+257
+<?xml version="1.0" encoding="utf-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><soapenv:Body><soapenv:Fault><faultcode>soapenv:Server.userException</faultcode><faultstring>org.springframework.transaction.UnexpectedRollbackException: Transaction rolled back because it has been marked as rollback-only</faultstring><detail><ns1:hostname xmlns:ns1="http://xml.apache.org/axis/">WINDOWS-1KV01O0</ns1:hostname></detail></soapenv:Fault></soapenv:Body></soapenv:Envelope>
+0
+
+
+POST /rminf/services/Trans?wsdl HTTP/1.1
+Host: 10.176.100.185:9080
+Content-Type: text/xml; charset="utf-8"
+Content-Length: 1385
+SOAPAction: "http://webservice.tfc.tmri.
